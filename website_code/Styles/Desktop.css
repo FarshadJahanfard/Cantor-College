@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap'); 
+body{
+    background-color: #ECECEC;
+}
+#container {
+    margin: auto;
+    max-width:auto;
+    min-width: 600px;
+}
+main{
+    display: flex;
+}
+.hero{
+    width: 100%;
+}
+nav {
+    background-color: #0069b4;
+    text-align: center;
+    border-radius: 10px;
+}
+nav ul li {
+    list-style:none;
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+nav ul li a:hover{
+    color: #842ae4;
+    transition: 0.3s;
+}
+
+/* side bar*/
+.sidebar {
+    flex: 0 1 300px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    background-color: #580da8;
+    color: #fff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-left: 20px;
+
+}
+/*buttons parent*/
+.buttons{
+    display: flex;
+    width:100%;
+    margin-top: 250px;
+    justify-content: center;
+}
+
+.picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
+.picture img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+
+.map img{
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
